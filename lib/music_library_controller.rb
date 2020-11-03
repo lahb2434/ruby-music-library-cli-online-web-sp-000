@@ -30,7 +30,8 @@ class MusicLibraryController
         when 'list song'
           play_song
         else
-          
+          'unknown input'
+        end
     end
   end
   
